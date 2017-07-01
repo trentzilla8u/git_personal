@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <title>My test page</title>
+  </head>
+  <body>
+	<h1>This is the first website ive done in quite a while</h1>
+	<img src="http://web-images.chacha.com/images/Gallery/5864/what-are-awesome-facts-about-boobs-1295273339-may-23-2013-1-600x450.jpg" alt="Background website image that looks like fire">
+	<p> This is the beginning of the list of steps to configure Project Security in a production site that already uses Sharepoint security. I came across a client that was onboarding new departments from within the organization. this group was going to be using ffeatures that were not originally planned for or being used by the orignial client department. On of those features was the timesheets in Project Online. One of the reuqirement with timesheets being enabled was the ability to use delegates. the system was going from 100 users to 1300 + users. the challenges faces were that we were going to have to switch the sharepoint permission mode to project permission mode prior to implementing the new timesheet system for testing. For this, we created a POC PWA instance in the same O365 tenant. the goal was to move over the current configuraiton and to test the implications when changing the permission mode, and then how to best handle the import of 1300 + users. </p>
+	<p> Another key challenge that we were facing was the acclerated timeframe for the project. we had about two months to take requirements, build the frequirements into a POC PWA environment for signoff, and the cutover plan to get that back into the production instance. testing had to be fast and furious on the production POC security cutover. What we found was that for the most part, everything stayed as it was in the sharepoint security mode once the users were placed back into their corresponding groups. Now, we just had way more option in the configuration, which turned out great becuase more requirements kept coming up regarding the timesheets which drove the need for custom security settings. Once the tests were evaluated, the configured was completed, and the custover plan was put into action. the steps are seen below </p>
+	<ul>
+		<li>Export current users from Sharepoint Security groups into CSV</li>
+		<li><li>This way, you will have the resourcs you need to place in the groups handy</li></li>
+		<li>Turn On Project Security</li>
+		<li>Add users to new project groups using the groups page in PWA settings</li>
+		<li>Test</li>
+		<li>Test</li>
+	</ul>
+	<p>The following are other considerations to consider on</p>
+	<p>For more information from microsoft, visit the following website</p>
+	<a href="https://microsoft.com">MICROSOFT STUFF</a>
+	</br>
+	<a href="./page2.html">Next Page</a>
+	<p></p>
+	<button>Change User</button>
+	<script src="scripts/main.js"></script>
+  </body>
+</html>
